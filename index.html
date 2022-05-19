@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header id="max-width">
       <p>Quanto minha obra vai custar?</p>
       <div class="header-right">
         <ul>
           <li><a href="">Home</a></li>
-          <li><a href="">Calcule</a></li>
+          <li><a href="#second-screen">Calcule</a></li>
           <li><a href="">Sobre</a></li>
         </ul>
         <button>Contact</button>
@@ -34,6 +34,69 @@
         </p>
         <button>Orçar</button>
       </main>
+    </div>
+
+    <!-- -------------------------------- SECOND SCREEN -------------------------------- -->
+
+    <div id="second-screen">
+      <h2>Orçamento Prévio</h2>
+
+      <div class="second-screen-content" id="max-width">
+        <div class="input-general-section">
+          <div class="input-section-1">
+            <p>Padrão</p>
+            <select name="test" id="">
+              <option value="0">Selecione um valor</option>
+              <option value="1">Opção 1</option>
+              <option value="2">Opção 2</option>
+              <option value="3">Opção 3</option>
+            </select>
+          </div>
+          <div class="input-section-2">
+            <p>Tipo de construção</p>
+            <select name="test" id="">
+              <option value="0">Selecione um valor</option>
+              <option value="1">Opção 1</option>
+              <option value="2">Opção 2</option>
+              <option value="3">Opção 3</option>
+            </select>
+          </div>
+          <div class="input-section-3">
+            <p>Área de construção</p>
+            <input type="text" name="" id="" placeholder="insira um valor" />
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="output-general-section">
+          <div class="total-cost">
+            <p>Você vai ter um gasto de aproximadamente:</p>
+            <p>R$ 000,00.</p>
+          </div>
+          <div class="bottom-output-section">
+            <div class="mao-de-obra">
+              <p>Mão de obra</p>
+              <p>
+                R$ 00,00. ou <br />
+                XX,XX%
+              </p>
+            </div>
+            <div class="material">
+              <p>Material</p>
+              <p>
+                R$ 00,00. ou <br />
+                XX,XX%
+              </p>
+            </div>
+            <div class="despesas">
+              <p>Despesas admnistrativas</p>
+              <p>
+                R$ 00,00. ou <br />
+                XX,XX%
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
