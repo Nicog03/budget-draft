@@ -6,6 +6,11 @@
     padding: 0px;
     font-family: 'PT Sans Caption', sans-serif;
     box-sizing: border-box;
+    color: #262626;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -21,6 +26,10 @@ a {
     color: black;
 }
 
+#max-width {
+    max-width: 900px;
+}
+
 header button {
     font-weight: 900;
     background-color: #515151;
@@ -31,11 +40,10 @@ header button {
 
 header {
     position: absolute;
-    width: 100vw;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
     align-items: center;
+    padding: 10px;
 }
 
 header ul {
@@ -82,4 +90,77 @@ main button {
     padding: 10px 70px;
     color: white;
     border: none;
+}
+
+/* SECOND SCREEN */
+
+select {
+    background-color: #262626;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+option {
+    color: white;
+}
+
+input[type="text"] {
+    background-color: #d0d0d0;
+    border: none;
+    padding: 10px;
+}
+
+#second-screen {
+    background-color:#ececec ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#second-screen h2 {
+ font-size: 30px;
+ margin-top: 50px;
+}
+
+.second-screen-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    align-self: center;
+    height: 100%;
+    margin-bottom: 200px;
+}
+
+.input-general-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.input-general-section div p {
+    margin-bottom: 10px;
+}
+
+.divider {
+    height: 350px;
+    width: 1px;
+    background-color: #707070;
+}
+
+.output-general-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.bottom-output-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
 }
