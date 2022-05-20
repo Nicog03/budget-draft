@@ -44,6 +44,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    max-width: 60vw;
 }
 
 header ul {
@@ -185,4 +186,59 @@ input[type="text"] {
     display: flex;
     justify-content: space-between;
     gap: 50px;
+}
+
+/* THIRD SCREEN */
+
+#third-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#third-section h2 {
+    font-size: 30px;
+    margin-top: 50px;
+   }
+
+.items {
+    margin-top: 200px;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 70vw;
+    min-width: 600px;
+}
+
+.about-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.items h3 {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.items button { 
+    background-color: #515151;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    transition: ease-out 0.3s;
+    align-self: center;
+}
+
+.items button:hover {
+    cursor: pointer;
+    background-color: #363636;
+}
+
+.items button:active {
+    background-color: #262626;
 }
