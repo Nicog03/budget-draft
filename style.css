@@ -145,8 +145,30 @@ input[type="text"] {
     margin-bottom: 10px;
 }
 
+.button-section {
+    display: flex;
+    gap: 20px;
+}
+
+.button-section button {
+    background-color: #515151;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    transition: ease-out 0.3s;
+}
+
+.button-section button:hover {
+    cursor: pointer;
+    background-color: #363636;
+}
+
+.button-section button:active {
+    background-color: #262626;
+}
+
 .divider {
-    height: 350px;
+    height: 430px;
     width: 1px;
     background-color: #707070;
 }
